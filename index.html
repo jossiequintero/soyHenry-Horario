@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Un día tipico en SoyHenry</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cabecera">
+        <h1 class="title">Una semana típica en Henry</h1>
+        <span>Full-Time PM</span>
+        <div>
+          <form action="" method="get">
+            <label for="paises">Zora Horario: </label>
+            <input list="paises" name="paises" />
+
+            <datalist id="paises">
+              <option value="Ecuador" selected>Ecuador</option>
+              <option value="Internet Explorer"></option>
+              <option value="Firefox"></option>
+              <option value="Google Chrome"></option>
+              <option value="Opera"></option>
+              <option value="Safari"></option>
+              <option value="Brave"></option>
+            </datalist>
+          </form>
+        </div>
+      </div>
+      <div class="calendario">
+        <table>
+          <tr>
+            <th><span class="abbre" id="gmt">GMT</span></th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+            <th>SABADOS DOMINGOS</th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+          </tr>
+          <tr>
+            <td>10 AM</td>
+            <td colspan="5" class="online">Code Review</td>
+            <td rowspan="6" class="descanso"></td>
+            <td colspan="3" class="online">Code Review</td>
+            <td rowspan="2" class="online">Review</td>
+            <td rowspan="6" class="online">Checkpoint</td>
+          </tr>
+          <tr style="height: 200px;">
+            <td>11 AM</td>
+            <td colspan="5" class="online">Lecture</td>
+            <td colspan="3" class="online">Lecture</td>
+          </tr>
+          <tr>
+            <td> - </td>
+            <td colspan="5" class="descanso"></td>
+            <td colspan="3" class="descanso"></td>
+            <td class="descanso"></td>
+          </tr>
+          <tr>
+            <td>15 a 17hs.</td>
+            <td colspan="5" class="own">Practice</td>
+            <td colspan="3" class="own">Practice</td>
+            <td rowspan="3" class="online">Pre CP</td>
+          </tr>
+          <tr>
+            <td>17 a 18hs.</td>
+            <td colspan="5" class="online">Pair Programming</td>
+            <td colspan="3" class="online">Pair Programming</td>
+          </tr>
+          <tr>
+            <td>18 a 19hs.</td>
+            <td colspan="5" class="online">Stand Up</td>
+            <td colspan="3" class="online">Stand up</td>
+          </tr>
+        </table>
+      </div>
+      <div class="rep">
+       <div><span class="cuadro amarillo"></span><span>En vivo</span></div>
+       <div><span class="cuadro gris"></span><span>Por tu cuenta</span></div>
+       <div><span class="cuadro morado"></span><span>Descanso</span></div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

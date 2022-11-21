@@ -1,0 +1,88 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 50px;
+ 
+}
+
+.cabecera{
+ display:flex;
+ justify-content:center;
+ align-items: center;
+}
+.cabecera .title{
+ padding: 10px;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+}
+
+td, th{
+ padding: 10px;
+ text-align: center;
+ height: 50px;
+}
+td{
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
+}
+
+.abbre{
+ border-radius: 20%;
+ -webkit-border-radius: 20%;
+ -moz-border-radius: 20%;
+ -ms-border-radius: 20%;
+ -o-border-radius: 20%;
+ background-color: black;
+ color: aliceblue;
+ padding: 5px;
+}
+
+.online{
+ background-color: yellow;
+}
+.descanso{
+ background-color: hwb(274deg 0% 0%);
+}
+.own{
+ background-color: silver;
+}
+.rep{
+ margin: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.rep > div {
+ margin: 10px;
+}
+.cuadro{
+ display: inline-block;
+ width: 10px;
+ height: 10px;
+ margin-right: 8px;
+}
+
+.amarillo{
+ background-color: yellow;
+}
+.morado{
+ background-color: hwb(274deg 0% 0%);
+}
+
+.gris{
+ background-color: silver;
+}
+
